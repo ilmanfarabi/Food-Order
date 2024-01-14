@@ -1,0 +1,26 @@
+.button{
+    margin: 0; padding: 0;
+  }
+ 
+  .button{
+    height: 50px;
+    width: 50px;
+    background: color #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 5px;
+    line-height:50px;
+    box-shadow: 2px 2px 4px 2px #dcdde1;
+  }
+  .button i{
+    transition: all 0.3s linear;
+  }
+  .button:hover i {
+    transform: scale(1.4);
+    
+  }
+  .social {
+
+      display: flex;
+      justify-content: center;
+  }
